@@ -5,6 +5,6 @@ print(url)
 ip = url.split(':')[1]
 ip = ip.split('/')[-1]
 port = url.split(':')[-1]
-with open('README.md', 'w') as file:
+with open('/home/argha/update_ip/README.md', 'w') as file:
     file.write('\n - IP: '+str(ip))
     file.write('\n - Port: '+str(port))
