@@ -1,3 +1,3 @@
 
- - IP: //0.tcp.in.ngrok.io
+ - IP: 0.tcp.in.ngrok.io
  - Port: 13776
