@@ -1,3 +1,3 @@
 
- - IP: 2.tcp.eu.ngrok.io
- - Port: 15690
+ - IP: 0.tcp.in.ngrok.io
+ - Port: 10624
