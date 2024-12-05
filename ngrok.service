@@ -1,0 +1,11 @@
+[Unit]
+Description=Run a Ngrok Bash script on restart and failure
+After=network.target  # Adjust as needed (e.g., `multi-user.target` or other >
+
+[Service]
+ExecStart=/home/argha/update_ip/activeNgrok.sh
+Restart=always         # Restart the service on failure
+RestartSec=5           # Wait 5 seconds before restarting
+
+[Install]
+WantedBy=multi-user.target
